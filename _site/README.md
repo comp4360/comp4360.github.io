@@ -1,2 +1,2 @@
-# mee404.github.io
-MEE404 COURSE PAGE
+# comp4360.github.io
+COMP4360 - Image Processing Lecture Website

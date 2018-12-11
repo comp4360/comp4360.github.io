@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: COMP4360 - Image Processing
+title: COMP4360 - Image Processingyasar
 email: yucomp4360@gmail.com
-description: "Course materials and notes for IKC Universtiy class MEE404: Machine Vision in Mechatronics."
+description: "Course materials and notes for IKC Universtiy class COMP4360: Machine Vision in Mechatronics."
 #baseurl: "http://comp4360.github.io"
 url: "http://comp4360.github.io"
 twitter_username: sukruozan
