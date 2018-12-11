@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MEE404 - Machine Vision in Mechatronics
-email: ikcumee404@gmail.com
+title: COMP4360 - Image Processing
+email: yucomp4360@gmail.com
 description: "Course materials and notes for IKC Universtiy class MEE404: Machine Vision in Mechatronics."
-#baseurl: "http://mee404.github.io"
-url: "http://mee404.github.io"
+#baseurl: "http://comp4360.github.io"
+url: "http://comp4360.github.io"
 twitter_username: sukruozan
-github_username:  mee404
+github_username:  comp4360
 
 header_pages:
   - about.md{:target="blank"}

@@ -28,8 +28,6 @@ This section will cumulatively listing the CLASS PRESENTATIONS we see in the cla
 
 Classworks are the questions we solve in the class, on the board. They will cumulatively be listed here.
 
-
-
 ### **ATTENDANCE and GRADES**
 
 The link to Google Drive Spreadsheet showing your most recent attendance and grade situation will be shared here in this section.
