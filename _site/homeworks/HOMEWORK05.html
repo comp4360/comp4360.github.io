@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Homework 5</title>
+  <meta name="description" content="Course materials and notes for IKC Universtiy class MEE404: Machine Vision in Mechatronics.">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/homeworks/HOMEWORK05">
+  <link rel="alternate" type="application/rss+xml" title="MEE404 - Machine Vision in Mechatronics" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper">
+    
+    
+    <a class="site-title" href="/">MEE404 - Machine Vision in Mechatronics</a>
+  
+    
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          
+            
+            
+          
+        </div>
+      </nav>
+    
+  </div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+MathJax.Hub.Config({
+TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+
+<h1 id="homework05-deadline-31052018-235959">HOMEWORK05 (Deadline 31.05.2018 23:59:59)</h1>
+<ul>
+  <li>In this homework you will write a python script and submit your homework as a single python file with <strong>.py</strong> file extension <strong>NOT an IPYNB file</strong>!!!</li>
+  <li>The script will read the input image file name and output image file name from <strong>command line</strong>.</li>
+  <li>The aim of the program is to filter out selected frequency regions of an image by using rectangle selector of <strong>matplotlib</strong>.</li>
+  <li>First of all you must be able to get the following sample code up and running on your system. This is a basic usage of rectangle selector of matplotlib.</li>
+</ul>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
+<span class="kn">from</span> <span class="nn">matplotlib.widgets</span> <span class="kn">import</span> <span class="n">RectangleSelector</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">matplotlib</span> <span class="k">as</span> <span class="n">mpl</span>
+
+<span class="k">def</span> <span class="nf">line_select_callback</span><span class="p">(</span><span class="n">eclick</span><span class="p">,</span> <span class="n">erelease</span><span class="p">):</span>
+    <span class="s">'eclick and erelease are the press and release events'</span>
+    <span class="n">x1</span><span class="p">,</span> <span class="n">y1</span> <span class="o">=</span> <span class="n">eclick</span><span class="o">.</span><span class="n">xdata</span><span class="p">,</span> <span class="n">eclick</span><span class="o">.</span><span class="n">ydata</span>
+    <span class="n">x2</span><span class="p">,</span> <span class="n">y2</span> <span class="o">=</span> <span class="n">erelease</span><span class="o">.</span><span class="n">xdata</span><span class="p">,</span> <span class="n">erelease</span><span class="o">.</span><span class="n">ydata</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"(</span><span class="si">%3.2</span><span class="s">f, </span><span class="si">%3.2</span><span class="s">f) --&gt; (</span><span class="si">%3.2</span><span class="s">f, </span><span class="si">%3.2</span><span class="s">f)"</span> <span class="o">%</span> <span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y2</span><span class="p">))</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">" The button you used were: </span><span class="si">%</span><span class="s">s </span><span class="si">%</span><span class="s">s"</span> <span class="o">%</span> <span class="p">(</span><span class="n">eclick</span><span class="o">.</span><span class="n">button</span><span class="p">,</span> <span class="n">erelease</span><span class="o">.</span><span class="n">button</span><span class="p">))</span>
+
+
+<span class="k">def</span> <span class="nf">toggle_selector</span><span class="p">(</span><span class="n">event</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">' Key pressed.'</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="ow">in</span> <span class="p">[</span><span class="s">'Q'</span><span class="p">,</span> <span class="s">'q'</span><span class="p">]</span> <span class="ow">and</span> <span class="n">toggle_selector</span><span class="o">.</span><span class="n">RS</span><span class="o">.</span><span class="n">active</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">' RectangleSelector deactivated.'</span><span class="p">)</span>
+        <span class="n">toggle_selector</span><span class="o">.</span><span class="n">RS</span><span class="o">.</span><span class="n">set_active</span><span class="p">(</span><span class="bp">False</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">event</span><span class="o">.</span><span class="n">key</span> <span class="ow">in</span> <span class="p">[</span><span class="s">'A'</span><span class="p">,</span> <span class="s">'a'</span><span class="p">]</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">toggle_selector</span><span class="o">.</span><span class="n">RS</span><span class="o">.</span><span class="n">active</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">' RectangleSelector activated.'</span><span class="p">)</span>
+        <span class="n">toggle_selector</span><span class="o">.</span><span class="n">RS</span><span class="o">.</span><span class="n">set_active</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">current_ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>                 <span class="c"># make a new plotting range</span>
+<span class="n">N</span> <span class="o">=</span> <span class="mi">100000</span>                                       <span class="c"># If N is large one can see</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">10.0</span><span class="p">,</span> <span class="n">N</span><span class="p">)</span>                    <span class="c"># improvement by use blitting!</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="o">+</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="o">.</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">x</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mf">3.5</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s">'b'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=.</span><span class="mi">7</span><span class="p">)</span>  <span class="c"># plot something</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="o">+</span><span class="n">np</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="o">.</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">x</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mf">3.5</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s">'r'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=.</span><span class="mi">5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="o">-</span><span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="o">.</span><span class="mi">2</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">x</span><span class="p">),</span> <span class="n">lw</span><span class="o">=</span><span class="mf">3.5</span><span class="p">,</span> <span class="n">c</span><span class="o">=</span><span class="s">'g'</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=.</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="se">\n</span><span class="s">      click  --&gt;  release"</span><span class="p">)</span>
+
+<span class="c"># drawtype is 'box' or 'line' or 'none'</span>
+<span class="n">toggle_selector</span><span class="o">.</span><span class="n">RS</span> <span class="o">=</span> <span class="n">RectangleSelector</span><span class="p">(</span><span class="n">current_ax</span><span class="p">,</span> <span class="n">line_select_callback</span><span class="p">,</span>
+                                       <span class="n">drawtype</span><span class="o">=</span><span class="s">'box'</span><span class="p">,</span> <span class="n">useblit</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+                                       <span class="n">button</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>  <span class="c"># don't use middle button</span>
+                                       <span class="n">minspanx</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">minspany</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>
+                                       <span class="n">spancoords</span><span class="o">=</span><span class="s">'pixels'</span><span class="p">,</span>
+                                       <span class="n">interactive</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="s">'key_press_event'</span><span class="p">,</span> <span class="n">toggle_selector</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+</code></pre></div></div>
+
+<ul>
+  <li>Your program should be able to make the user able to select multiple areas to be filtered out till the user pushes q or Q button.</li>
+  <li>Once the user stops selecting areas the program should reconstruct the output image from the filtered out frequency domain image.</li>
+  <li>Prepare a project report and explain your work in as much detail as possible but with your own words. Send a separate pdf file for the report.</li>
+  <li>Submit your homework according to the submission guideline below.</li>
+  <li>See below the video of how a desired script run would look like:</li>
+</ul>
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=wZMMWjlZZ5Q&amp;feature=youtu.be"><img src="https://img.youtube.com/vi/wZMMWjlZZ5Q/0.jpg" alt="HW05 SAMPLE RUN" target="blank" /></a>
+</div>
+
+<h1 id="homework-submission-guideline">HOMEWORK SUBMISSION GUIDELINE:</h1>
+
+<p>The homework submission guideline is of grave importance for this course. Improper submissions will not be graded!.</p>
+
+<ul>
+  <li>In this homework you will send one python script file and a report pdf file.</li>
+  <li>The python script should be named accordingly. It should both indicate your student number (lets assume it is 12345678) and the corresponding homework number (lets assume it is homework 5). Hence the file should be renamed as <strong>12345678HW05.py</strong> (Beware of the capital HW letters!)</li>
+  <li>The project report should be named accordingly. It should both indicate your student number (lets assume it is 12345678) and the corresponding homework number (lets assume it is homework 5). Hence the file should be renamed as <strong>12345678HW05.pdf</strong> (Beware of the capital HW letters!) The report should be in an academic article format. <a href="https://drive.google.com/open?id=1brUR6dAqKebbB7BZWObShHEV9kLmAxcP">Use this word article format</a></li>
+  <li>You will submit your homework by mailing it to <strong>ikcumee404@gmail.com</strong> address. The subject of your mail should also be named accordingly. It contain course number (MEE404), the homework number (lets assume it is homework 5) and your student number (lets assume it is 12345678). Hence the subject field of your submission mail should be  MEE404 HW05 12345678 (each separated by a single space!)</li>
+  <li>Co-operation is strongly prohibited!</li>
+  <li>Try to submit before the announced deadline or 25 pts. will be taken off for the next day.</li>
+  <li>Homeworks submitted later than one day will not be graded.</li>
+</ul>
+
+      </div>
+    </main>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">MEE404 - Machine Vision in Mechatronics</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            
+              MEE404 - Machine Vision in Mechatronics
+            
+            </li>
+            
+            <li><a href="mailto:ikcumee404@gmail.com">ikcumee404@gmail.com</a></li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/mee404"><span class="icon icon--github"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">mee404</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/sukruozan"><span class="icon icon--twitter"><svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">sukruozan</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Course materials and notes for IKC Universtiy class MEE404: Machine Vision in Mechatronics.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
