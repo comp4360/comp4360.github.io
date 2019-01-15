@@ -12,7 +12,7 @@ permalink: /tutorials/basic-python/
 It is strongly recommended that you first finish this tutorial. I will be using Python version 2.7 , hence for convenience, you are expected to install Python version 2.7 on your sytem. The walkthrough for the installation is platform specific, you should refer to the official [Python Website](https://www.python.org){:target='_blank'}. Once you're sure that you installed the correct python version on your system CD to correspnding directory for MEE404 class you created by using whichever name you want to use. Here I preferred MEE404 for convenience. 
 
 ```sh
-cd MEE404
+cd COMP4360
 ```
 
 It is very common to use virtual environments for specific tasks. It helps you to create and work on a virtual environment specifically tailored for one specific task. It includes a python instance and keeps the core installation isolated. This makes it possible to install and try different python packages without compromising the core installation. Running the following command will create a virtual environment hosted in **venv** directory. It is a common practice to name the directory as **venv**.
