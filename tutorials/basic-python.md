@@ -27,7 +27,7 @@ virtualenv -p python3.6 venv
 source venv/bin/activate
 ```
 
-In python installations pip installer comes as dafault. It is straightforward to install a package by using pip. In this class you will need a couple of libraries installed to your system. It is possible to install them one by one but more convenient way is to install them by using a [requirements.txt ](/homeworks/requirements.txt/){:target='_blank'}file. 
+In python installations pip installer comes as dafault. It is straightforward to install a package by using pip. In this class you will need a couple of libraries installed to your system. It is possible to install them one by one but more convenient way is to install them by using a [requirements.txt ](/homeworks/requirements.txt){:target='_blank'}file. 
 
 ```sh
 pip3 install -r requirements.txt
