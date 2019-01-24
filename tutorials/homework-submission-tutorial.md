@@ -40,9 +40,9 @@ print(submit(data))
 
 - If you followed every step correctly by simply running submit.py from terminal you should be able to submit your homework. If you want you can add your mail address to the data field _(i.e. data['cc'])_ and see how your submission actually looks like. The run should return 'email sent' message to you from within the terminal. 
 
-'''sh
+```sh
 (venv-imageprocessinglecture)$ python submit.py
-'''
+```
 
 - Make your submissions till the declared due date for each homework. 
 
