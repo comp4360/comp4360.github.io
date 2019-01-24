@@ -40,7 +40,7 @@ The link to Google Drive Spreadsheet showing your most recent attendance and gra
 
 Regularly check the below link since I may add up things that I find useful.
 
-- [Basic Python](/tutorials/basic-python/){:target="blank"}
+- [Basic Python](/tutorials/basic-python-tutorial/){:target="blank"}
 
 ### **PYTHON SCRIPTS**
 
