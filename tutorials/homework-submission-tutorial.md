@@ -29,7 +29,6 @@ data['consent'] = 'I pledge on my honor that: \n \
 I have completed all steps of the attached homework on my own, \n \
 I have not used any unauthorized materials while completing this homework, and \n \
 I have not given anyone else access to my homework. \n'
-data['cc']  = ''
 
-submit(data)
+print(submit(data))
 ```

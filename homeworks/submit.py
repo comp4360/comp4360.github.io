@@ -14,7 +14,4 @@ I have completed all steps of the attached homework on my own, \n \
 I have not used any unauthorized materials while completing this homework, and \n \
 I have not given anyone else access to my homework. \n'
 
-
-data['cc']  = 'sukruozan@gmail.com'
-
-submit(data)
+print(submit(data))
