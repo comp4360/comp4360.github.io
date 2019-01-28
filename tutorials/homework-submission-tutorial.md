@@ -11,12 +11,12 @@ permalink: /tutorials/homework-submission-tutorial/
 
 - Make sure that you read [Basic Python Tutorial](/tutorials/basic-python-tutorial/){:target='_blank'}. It is important that you've configured your virtual environments and install all the requirements accordingly. 
 
-- Once you installed the requirements and activated your virtual environment, you can start writing your homeworks. It is important that you also download [comp4360.pyc](/homeworks/comp4360v1.0.pyc){:target='_blank'} file to the same directory with your script.
+- Once you installed the requirements and activated your virtual environment, you can start writing your homeworks. It is important that you also download [comp4360.pyc](/homeworks/comp4360.pyc){:target='_blank'} file to the same directory with your script.
 
 - Assuming that you finished writing your script you can submit it properly by using [submit.py](/homeworks/submit.py){:target='_blank'}. In the submit file you have to enter the correct information to make a proper submission.
 
 ```python
-from comp4360v1.0 import submit
+from comp4360 import submit
 
 data = {}
 data['lecture'] = 'COMP4360'
@@ -33,6 +33,16 @@ data['cc']  = ''
 
 print(submit(data))
 ```
+
+- All the allowed libraries will be in comp4360.pyc file. You can call functions from this library by using the above scheme using "from,import" structure, or you would prefer to import the whole comp4360 library and call functions as a library instance e.g.:
+
+```python
+import comp4360
+.
+.
+print(comp4360.submit(data))
+```
+
 
 - You should NOT change the prefined fields showing the course code _(i.e. data['lecture'])_ and consent sentence _(i.e. data['consent'] = '...')_ . Consent sequence is your statement that you do NOT cheat while preparing and submiting a homework. I hope you will behave accordingly. 
 

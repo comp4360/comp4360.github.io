@@ -12,8 +12,7 @@ permalink: /homeworks/homework-01/
  _(Due Date: 15.02.2019 23:59:59)_
 
 
-
-Make sure that you read [Homework Submission tutorial](/tutorials/homework-submission-tutorial/){:target='_blank'}. It is important that you've configured your virtual environments and install all the requirements accordingly. 
+Make sure that you read [Homework Submission tutorial](/tutorials/homework-submission-tutorial/){:target='_blank'}. 
 
 Once you installed the requirements and activated your virtual environment, you can start writing your homeworks. It is important that you also download [comp4360.pyc](/homeworks/comp4360.pyc){:target='_blank'} file to the same directory with your script.
 
