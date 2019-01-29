@@ -18,18 +18,20 @@ permalink: /tutorials/homework-submission-tutorial/
 ```python
 from comp4360 import submit
 
+
 data = {}
-data['lecture'] = 'COMP4360'
-data['homework_number'] = ''
-data['student_number'] = ''
-data['student_name_surname'] = ''
-data['script_name'] = ''
-data['image_name'] = ''
+data['lecture'] = 'COMP4360' # DO NOT CHANGE THIS
+data['homework_number'] = '1' # WRITE THE CORRECT HOMEWORK NUMBER HERE
+data['student_number'] = '123456789' # WRITE YOUR STUDENT NUMBER CORRECTLY!
+data['student_name_surname'] = 'Ali Veli' # IT IS IMPORTANT THAT YOU WRITE YOUR NAME AND SURNAME CORRACTLY IN THIS FIELD
+data['script_name'] = 'my_script.py' # THE NAME OF THE SCRIPT YOU'RE GOING TO SUBMIT
+data['image_name'] = 'my_image.png' # THE NAME OF THE OUTPUT IMAGE YOU'RE GOING TO SUBMIT
+# DO NOT CHANGE THE FOLLOWING CONSENT SENTENCE, SUBMISSIONS WITHOUT THIS EXACT CONSENT SENTENCE WILL NOT BE GRADED
 data['consent'] = 'I pledge on my honor that: \n \
 I have completed all steps of the attached homework on my own, \n \
 I have not used any unauthorized materials while completing this homework, and \n \
 I have not given anyone else access to my homework. \n'
-data['cc']  = ''
+data['cc']  = '' # IF YOU WANT YOU CAN SUBMIT A COPY OF YOUR SUBMISSION TO YOUR PERSONAL EMAIL ADDRESS 
 
 print(submit(data))
 ```
@@ -44,7 +46,7 @@ print(comp4360.submit(data))
 ```
 
 
-- You should NOT change the prefined fields showing the course code _(i.e. data['lecture'])_ and consent sentence _(i.e. data['consent'] = '...')_ . Consent sequence is your statement that you do NOT cheat while preparing and submiting a homework. I hope you will behave accordingly. 
+- You should NOT change the prefined fields showing the course code _(i.e. data['lecture'])_ and consent sentence _(i.e. data['consent'] = '...')_ . Consent sequence is your statement that you do NOT cheat while preparing and submiting a homework. Submissions WITHOUT this exact consent sentence WILL NOT BE graded. 
 
 - The other fields  should be filled correctly. All the files, i.e. your script, comp4360.pyc, submit.py and the output image should be in the same directory for your submission to work. You should write the name of your script and output image file correctly in the corresponding data field.
 
@@ -56,5 +58,3 @@ email sent
 ```
 
 - Make your submissions till the declared due date for each homework. 
-
-
