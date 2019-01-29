@@ -39,38 +39,3 @@ img.save('sample-out.png')
 You should be able to run this script if you followed the previous steps correctly. Thsi script needs an input image which you can download from [here](/homeworks/files/my_image.png){:target='_blank'}. It creates an output image whichs is a copy of the input image where some text is inserted on it. The script also seeks for a proper font file which supports Turkish letters. You can download the font file from [here](/homeworks/files/algerya-sans.otf){:target='_blank'}. (Remember! All these files should be in the same directory) 
 
 Assuming that you finished writing your script you can submit it properly by using [submit.py](/homeworks/submit.py){:target='_blank'}. In the submit file you have to enter the correct information to make a proper submission.
-
-```python
-from comp4360 import submit
-
-data = {}
-data['lecture'] = 'COMP4360'
-data['homework_number'] = ''
-data['student_number'] = ''
-data['student_name_surname'] = ''
-data['script_name'] = ''
-data['image_name'] = ''
-data['consent'] = 'I pledge on my honor that: \n \
-I have completed all steps of the attached homework on my own, \n \
-I have not used any unauthorized materials while completing this homework, and \n \
-I have not given anyone else access to my homework. \n'
-data['cc']  = ''
-
-print(submit(data))
-```
-
-
-```python
-#!/usr/bin/env python
-# coding: utf-8
-
-from comp4360 import Image,ImageDraw,ImageFont
-
-img = Image.open("my_image.png")
-draw = ImageDraw.Draw(img)
-# font = ImageFont.truetype(<font-file>, <font-size>)
-font = ImageFont.truetype("algerya-sans.otf", 40)
-# draw.text((x, y),"Sample Text",(r,g,b))
-draw.text((0, 0),"Türkçe karakteler: Ü Ö Ş Ğ Ü Ç İ ı ç ü ğ ş ö ü",(255,255,255),font=font)
-img.save('sample-out.png')
-```
