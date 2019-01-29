@@ -36,7 +36,7 @@ draw.text((0, 0),"Türkçe karakteler: Ü Ö Ş Ğ Ü Ç İ ı ç ü ğ ş ö ü
 img.save('sample-out.png')
 ```
 
-You should be able to run this script if you followed the previous steps correctly. Thsi script needs an input image which you can download from [here](/homeworks/files/my_image.png){:target='_blank'}. It creates an output image whichs is a copy of the input image where some text is inserted on it. The script also seeks for a proper font file which supports Turkish letters. You can download the font file from [here](/homeworks/files/algerya-sans.otf){:target='_blank'}.
+You should be able to run this script if you followed the previous steps correctly. Thsi script needs an input image which you can download from [here](/homeworks/files/my_image.png){:target='_blank'}. It creates an output image whichs is a copy of the input image where some text is inserted on it. The script also seeks for a proper font file which supports Turkish letters. You can download the font file from [here](/homeworks/files/algerya-sans.otf){:target='_blank'}. (Remember! All these files should be in the same directory) 
 
 Assuming that you finished writing your script you can submit it properly by using [submit.py](/homeworks/submit.py){:target='_blank'}. In the submit file you have to enter the correct information to make a proper submission.
 
@@ -58,7 +58,6 @@ data['cc']  = ''
 
 print(submit(data))
 ```
-
 
 
 ```python
