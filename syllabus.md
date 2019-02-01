@@ -6,20 +6,20 @@ layout: default
 title: Tentative Sylabus
 permalink: /syllabus/
 ---
-#### Course Title : Machine Vision in Mechatronics
-#### Course Code : MEE404
-#### Place : C1-05
+#### Course Title : Image Processing
+#### Course Code : COMP4360
+#### Place : Y-215
 #### Schedule : Friday, 09:30 - 12:15
 #### Lecturer : [Şükrü Ozan, Ph.D.](http://sukruozan.com){:target='blank'}
-#### E-mail : [ikcumee404@gmail.com](mailto:ikcumee404@gmail.com) _(All e-mails regarding this course should be sent to this address!)_
+#### E-mail : [sukruozan@gmail.com](mailto:sukruozan@gmail.com) _(All e-mails regarding this course should be sent to this address!)_
 
 # Course details
 
-The syllabus information listed here is tentative. Hence, often check the website for announcements etc.
+The syllabus information listed here is tentative. Hence, often check the website for announcements etc. 
 
 ## Course Description
 
-The aim of this course is to provide an introduction to image processing. The course demonstrates the low and mid-level vision techniques such as filtering in the spatial and frequency domain, image enhancement, edge detection, image segmentation, image compression and their applications. We will not stick with a unique text book, but it is recommended to have the book below in your library,  if you are interested in image processing literature.
+The aim of this course is to provide an introduction to image processing. The course demonstrates the low and mid-level vision techniques such as filtering in the spatial and frequency domain, image enhancement, edge detection, image segmentation, image compression and their applications. We will not stick with a unique text book, but it is recommended to have the book below in your library,  if you are interested in image processing literature. We will be using Python programming language. The exact version is Python 3.6. 
 
 ## Text Book
 Rafael C. Gonzalez, Richard E. Woods, “Digital Image Processing” (3rd Edition) Publisher: Pearson, 2008, ISBN 10: 013168728X, ISBN 13: 978-0131687288
@@ -27,14 +27,11 @@ Rafael C. Gonzalez, Richard E. Woods, “Digital Image Processing” (3rd Editio
 This year I am planning to follow the below grading scheme:
 
 ## Grading Scheme
-- Final (50%)
-- Midterm (35%)
-- Homeworks+Quizzes (15%)
+- Final (40%)
+- Midterm (30%)
+- Homeworks+Quizzes+(Attendance opt.) (30%)
 
-In the previous years I preferred giving a 30% weight for homeworks and wasn't asking direct programming questions in the exams. This year I am planning to halve the weight of the homeworks and will be asking programming questions, which are directly related with the homeworks, in both the midterm and final exam. Hence I strongly recommend you to do your best on Python homeworks and grasp the usage of corresponding libraries, namely pillow numpy and matplotlib. Detailed information about homework submissions will be announced separately.
-
-There is a probability that I may give you a few pop quizzes during the semester. So DO NOT miss any class.
-
+I will be keeping track of your attendances. At the end of the semester I will decide whether to include the attendance as a point to your overall grade calculations. But either way it is much reccomended that you follow the course and do not miss any class because there will be po quizes during the semester. And the quiz grades will definetely be included to your grade calculations.
 
 ## Tentative Syllabus
 
