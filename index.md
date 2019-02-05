@@ -11,6 +11,18 @@ This is the homepage for our course. Visit this page frequently to see the annou
 
 _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click will open the links in new tabs.)_
 
+### **ABOUT THE COURSE**
+
+- [Tentative Syllabus](syllabus/){:target="blank"}
+
+### **TUTORIALS**
+
+- [Basic Python](/tutorials/basic-python-tutorial/){:target="blank"}
+
+### **PYTHON SCRIPTS**
+
+ - You can reach the sample python scripts we see in the lectures [here](https://github.com/comp4360/comp4360.github.io/tree/master/scripts){:target="blank"}.
+
 ### **LATEST ANNOUNCEMENTS**
 
 You will see the most recent announcements in this section including CLASS PRESENTATIONS, CLASS WORKS and ATTENDANCE & GRADES.
@@ -32,14 +44,3 @@ Classworks are the questions we solve in the class, on the board. They will cumu
 
 The link to Google Drive Spreadsheet showing your most recent attendance and grade situation will be shared here in this section.
 
-### **ABOUT THE COURSE**
-
-- [Tentative Syllabus](syllabus/){:target="blank"}
-
-### **TUTORIALS**
-
-- [Basic Python](/tutorials/basic-python-tutorial/){:target="blank"}
-
-### **PYTHON SCRIPTS**
-
- - You can reach the sample python scripts we see in the lectures [here](https://github.com/comp4360/comp4360.github.io/tree/master/scripts){:target="blank"}.
