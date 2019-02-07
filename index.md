@@ -34,7 +34,7 @@ You will see the most recent HOMEWORK detail here.
 
 ### **CLASS PRESENTATIONS**
 
-This section will cumulatively listing the CLASS PRESENTATIONS we see in the class.
+This section will be  listing the CLASS PRESENTATIONS we see in the class cumulatively.
 
 ### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
 
