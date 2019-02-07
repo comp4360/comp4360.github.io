@@ -116,6 +116,8 @@ Image.fromarray(img,'L').save('circle-bad.png','PNG')
 
 These are some introductory level scripts you can try and run:
 
+- [Ex 00](/exercises/exercise00.md){:target="blank"}.
+- [Ex 01](/exercises/exercise01.md){:target="blank"}.
 - [Ex 1](/scripts/L01E01.py){:target="blank"}.
 - [Ex 2](/scripts/L01E02.py){:target="blank"}.
 - [Ex 3](/scripts/L01E03.py){:target="blank"}.
