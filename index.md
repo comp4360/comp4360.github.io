@@ -18,6 +18,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 ### **TUTORIALS**
 
 - [Basic Python](/tutorials/basic-python-tutorial/){:target="blank"}
+- [Homework Submission Tutorial](/tutorials/homework-submission-tutorial/){:target="blank"}
 
 ### **PYTHON SCRIPTS**
 
@@ -29,7 +30,7 @@ You will see the most recent announcements in this section including CLASS PRESE
 
 ### **HOMEWORK**
 
-You will see the most recent HOMEWORK detail here.
+- [Homework 1](/homeworks/homework-01/){:target="blank"}
 
 
 ### **CLASS PRESENTATIONS**
