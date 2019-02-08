@@ -11,6 +11,22 @@ This is the homepage for our course. Visit this page frequently to see the annou
 
 _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click will open the links in new tabs.)_
 
+
+### **LATEST ANNOUNCEMENTS**
+
+- We had our first lecture on 08.02.2019. It was a meeting and short introduction. I recommend  that you follow and implement the exercises in tutorial pages on your own computer by yourself.
+- See Homework 1 below.
+
+
+### **CLASS PRESENTATIONS**
+- [WEEK 1 : 08.02.2019](https://docs.google.com/presentation/d/15CgUzOMa9H-jxMAjTw6iCbmaI_RXIbR76VgI0VQywTA/edit?usp=sharing){:target="blank"}
+
+
+### **HOMEWORK**
+
+- [Homework 1](/homeworks/homework-01/){:target="blank"}
+
+
 ### **ABOUT THE COURSE**
 
 - [Tentative Syllabus](syllabus/){:target="blank"}
@@ -20,28 +36,19 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [Basic Python](/tutorials/basic-python-tutorial/){:target="blank"}
 - [Homework Submission Tutorial](/tutorials/homework-submission-tutorial/){:target="blank"}
 
+### **ATTENDANCE and GRADES**
+
+- [ATTENDANCE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"}
+
+<!-- 
 ### **PYTHON SCRIPTS**
 
  - You can reach the sample python scripts we see in the lectures [here](https://github.com/comp4360/comp4360.github.io/tree/master/scripts){:target="blank"}.
 
-### **LATEST ANNOUNCEMENTS**
-
-You will see the most recent announcements in this section including CLASS PRESENTATIONS, CLASS WORKS and ATTENDANCE & GRADES.
-
-### **HOMEWORK**
-
-- [Homework 1](/homeworks/homework-01/){:target="blank"}
-
-
-### **CLASS PRESENTATIONS**
-
-This section will be  listing the CLASS PRESENTATIONS we see in the class cumulatively.
 
 ### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
 
 Classworks are the questions we solve in the class, on the board. They will cumulatively be listed here.
 
-### **ATTENDANCE and GRADES**
 
-The link to Google Drive Spreadsheet showing your most recent attendance and grade situation will be shared here in this section.
-
+-->
