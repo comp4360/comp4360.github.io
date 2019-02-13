@@ -49,6 +49,4 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 ### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
 
 Classworks are the questions we solve in the class, on the board. They will cumulatively be listed here.
-
-
 -->
