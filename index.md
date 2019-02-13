@@ -31,14 +31,17 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 
 - [Tentative Syllabus](syllabus/){:target="blank"}
 
+
+### **ATTENDANCE and GRADES**
+
+- [ATTENDANCE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"}
+
+
 ### **TUTORIALS**
 
 - [Basic Python](/tutorials/basic-python-tutorial/){:target="blank"}
 - [Homework Submission Tutorial](/tutorials/homework-submission-tutorial/){:target="blank"}
 
-### **ATTENDANCE and GRADES**
-
-- [ATTENDANCE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"}
 
 <!-- 
 ### **PYTHON SCRIPTS**
