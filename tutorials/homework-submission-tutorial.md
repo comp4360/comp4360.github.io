@@ -72,4 +72,4 @@ email sent
 ## **Ethics**
 
 - Any submission system is somehow open to adverserial attacks. I expect from all of you to behave accordingly while submitting your homeworks.
-- You'll be sending a consent text in each of your homwwork submissions. Hence I am assuming that every single student is performing the homework solutions by themselves and do not cooperate with any classmates. I also want everyone to use her/his own PC while preparing and submittig their homeworks. 
+- You'll be sending a consent text in each of your homework submissions. Hence I am assuming that every single student is performing the homework solutions by themselves and do not cooperate with any classmates. I also want everyone to use her/his own PC while preparing and submittig their homeworks. 
