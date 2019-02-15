@@ -14,12 +14,14 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 
 ### **LATEST ANNOUNCEMENTS**
 
-- We had our first lecture on 08.02.2019. It was a meeting and short introduction. I recommend  that you follow and implement the exercises in tutorial pages on your own computer by yourself.
-- See Homework 1 below.
+- Due to a light hacking incident our sumbission system was compromised. Hence I am slightly moidfying the system. Please read [Homework Submission Tutorial](/tutorials/homework-submission-tutorial/){:target="blank"}.
+- Even most of the students have already made their submissions, few of you couldn't send after I change the password to secure the account. Moreover, some students have sent the wrong output image. Hence I am extending the submission deadline of Homework 01 to 21.02.2019 23:59:59.
+- See Homework 1 below (again).
 
 
 ### **CLASS PRESENTATIONS**
 - [WEEK 1 : 08.02.2019](https://docs.google.com/presentation/d/15CgUzOMa9H-jxMAjTw6iCbmaI_RXIbR76VgI0VQywTA/edit?usp=sharing){:target="blank"}
+- [WEEK 2 : 15.02.2019](https://docs.google.com/presentation/d/1O2UdqBU7esl2hefXjT58tL-HsyoXR0W2NkTjnGjs7KI/edit?usp=sharing){:target="blank"}
 
 
 ### **HOMEWORK**

@@ -9,7 +9,7 @@ permalink: /homeworks/homework-01/
 
 ### **Homework 01**
 
- _(Due Date: 15.02.2019 23:59:59)_
+ _(Due Date: 21.02.2019 23:59:59)_
 
 This homework aims, first of all, to make you install python3.6 on your system and install necessary libraries required for this course. 
 

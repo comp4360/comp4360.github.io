@@ -11,26 +11,36 @@ permalink: /tutorials/homework-submission-tutorial/
 
 - Make sure that you read [Basic Python Tutorial](/tutorials/basic-python-tutorial/){:target='_blank'}. It is important that you've configured your virtual environments and install all the requirements accordingly. 
 
-- Once you installed the requirements and activated your virtual environment, you can start writing your homeworks. It is important that you also download [comp4360.pyc](/homeworks/comp4360.pyc){:target='_blank'} file to the same directory with your script.
+- Once you installed the requirements and activated your virtual environment, you can start writing your homeworks. It is important that you also download [comp4360.py](/homeworks/comp4360.pyc){:target='_blank'} file to the same directory with your script.
 
 - Assuming that you finished writing your script you can submit it properly by using [submit.py](/homeworks/submit.py){:target='_blank'}. In the submit file you have to enter the correct information to make a proper submission.
+
+- The submission system now requires you to input your own gmail.com e-mail address and password to be entered. It is now included in submit.py file.
+
+- DO NOT use your personal e-mail addresses. Create a new gmail  address for submission. In the new accounts security settings enable less secure applications which will make it possible to send e mail using SMTP relay.
+
+- DO NOT forget to modify the necessary parts in submit.py script.
+
+
 
 ```python
 from comp4360 import submit
 
 data = {}
 data['lecture'] = 'COMP4360' # DO NOT CHANGE THIS
-data['homework_number'] = '1' # WRITE THE CORRECT HOMEWORK NUMBER HERE
-data['student_number'] = '123456789' # WRITE YOUR STUDENT NUMBER CORRECTLY!
-data['student_name_surname'] = 'Ali Veli' # IT IS IMPORTANT THAT YOU WRITE YOUR NAME AND SURNAME CORRECTLY IN THIS FIELD
-data['script_name'] = 'my_script.py' # THE NAME OF THE SCRIPT YOU'RE GOING TO SUBMIT
-data['image_name'] = 'my_image.png' # THE NAME OF THE OUTPUT IMAGE YOU'RE GOING TO SUBMIT
+data['homework_number'] = '...' # WRITE THE CORRECT HOMEWORK NUMBER HERE
+data['student_number'] = '...' # WRITE YOUR STUDENT NUMBER CORRECTLY!
+data['student_name_surname'] = '...' # IT IS IMPORTANT THAT YOU WRITE YOUR NAME AND SURNAME CORRECTLY IN THIS FIELD
+data['script_name'] = '...' # THE NAME OF THE SCRIPT YOU'RE GOING TO SUBMIT
+data['image_name'] = '...' # THE NAME OF THE OUTPUT IMAGE YOU'RE GOING TO SUBMIT
 # DO NOT CHANGE THE FOLLOWING CONSENT SENTENCE, SUBMISSIONS WITHOUT THIS EXACT CONSENT SENTENCE WILL NOT BE GRADED
 data['consent'] = 'I pledge on my honor that: \n \
 I have completed all steps of the attached homework on my own, \n \
 I have not used any unauthorized materials while completing this homework, and \n \
 I have not given anyone else access to my homework. \n'
-data['cc']  = '' # IF YOU WANT YOU CAN SUBMIT A COPY OF YOUR SUBMISSION TO YOUR PERSONAL EMAIL ADDRESS 
+data['cc']  = '...' # IF YOU WANT YOU CAN SUBMIT A COPY OF YOUR SUBMISSION TO YOUR PERSONAL EMAIL ADDRESS 
+data['user']  = '...@gmail.com' # THIS IS THE GMAIL ADDRESS YOU CREATED FOR SUBMISSION
+data['password'] = '...' # THIS IS THE PASSWORD FOR THE GMAIL ADDRESS YOU ENTERED ABOVE
 
 print(submit(data))
 ```
