@@ -24,6 +24,11 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 2 : 15.02.2019](https://docs.google.com/presentation/d/1O2UdqBU7esl2hefXjT58tL-HsyoXR0W2NkTjnGjs7KI/edit?usp=sharing){:target="blank"}
 
 
+### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
+- [WEEK 2 : 15.02.2019](https://drive.google.com/file/d/1qC9AVsdsdMoIxMOFPGULV0VL63wg7Zwy/view?usp=sharing){:target="blank"}
+
+
+
 ### **HOMEWORK**
 
 - [Homework 1](/homeworks/homework-01/){:target="blank"}
@@ -51,7 +56,4 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
  - You can reach the sample python scripts we see in the lectures [here](https://github.com/comp4360/comp4360.github.io/tree/master/scripts){:target="blank"}.
 
 
-### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
-
-Classworks are the questions we solve in the class, on the board. They will cumulatively be listed here.
 -->
