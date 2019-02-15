@@ -7,7 +7,8 @@ title: Homework Submission Tutorial
 permalink: /tutorials/homework-submission-tutorial/
 ---
 
-### **Homework Submission Tutorial**
+## **Homework Submission Tutorial**
+
 
 - Make sure that you read [Basic Python Tutorial](/tutorials/basic-python-tutorial/){:target='_blank'}. It is important that you've configured your virtual environments and install all the requirements accordingly. 
 
@@ -67,3 +68,8 @@ email sent
 ```
 
 - Make your submissions till the declared due date for each homework. 
+
+## **Ethics**
+
+- Any submission system is somehow open to adverserial attacks. I expect from all of you to behave accordingly while submitting your homeworks.
+- You'll be sending a consent text in each of your homwwork submissions. Hence I am assuming that every single student is performing the homework solutions by themselves and do not cooperate with any classmates. I also want everyone to use her/his own PC while preparing and submittig their homeworks. 
