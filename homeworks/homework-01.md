@@ -17,7 +17,7 @@ Make sure that you read and performed both:
 - [Basic Python Tutorial](/tutorials/basic-python-tutorial/){:target='_blank'}. 
 - [Homework Submission tutorial](/tutorials/homework-submission-tutorial/){:target='_blank'}. 
 
-Once you installed the requirements and activated your virtual environment, you can start writing your homeworks. It is important that you also download [comp4360.pyc](/homeworks/comp4360.pyc){:target='_blank'} file to the same directory with your script.
+Once you installed the requirements and activated your virtual environment, you can start writing your homeworks. It is important that you also download [comp4360.py](/homeworks/comp4360.py){:target='_blank'} file to the same directory with your script.
 
 In this homework you are going to simply run the following script. You can download the script from [here](/homeworks/files/my_script.py){:target='_blank'}.
 
