@@ -28,7 +28,6 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 2 : 15.02.2019](https://drive.google.com/file/d/1qb9JY9PVwFaVk32ryVhdJZlnNNRG5-Cn/view?usp=sharing){:target="blank"} (There are two bonus questions we did not actually solve on the board.)
 
 
-
 ### **HOMEWORK**
 
 - [Homework 1](/homeworks/homework-01/){:target="blank"}
@@ -36,7 +35,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 
 ### **ATTENDANCE and GRADES**
 
-- [ATTENDANCE and GRADES](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml#){:target="blank"}
+- [ATTENDANCE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"}
 
 
 ### **ABOUT THE COURSE**

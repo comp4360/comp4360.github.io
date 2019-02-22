@@ -1,9 +1,12 @@
 
+# 21.02.2019
+
 import email
 import smtplib
 import socket
 import platform
 import sys
+import os
 import time
 import numpy as np
 import matplotlib.pyplot as plt
@@ -14,7 +17,7 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 from pif import get_public_ip
 
-version = "1.1"
+version = "1.2"
 
 # smtplib module send mail
 def submit(data):
@@ -42,10 +45,11 @@ def submit(data):
     msg['To'] = TO
     attachment = MIMEApplication(open(data['script_name'], "rb").read(), _subtype="py")
     attachment.add_header('Content-Disposition', 'attachment', filename=data['script_name'])           
-    msg.attach(attachment)   
-    img = MIMEImage(open(data['image_name'], 'rb').read())
-    msg.attach(img)  
-    msg.attach(MIMEText(TEXT))
+    msg.attach(attachment)  
+    if  data['image_name'] != '':
+        img = MIMEImage(open(data['image_name'], 'rb').read())
+        msg.attach(img)  
+        msg.attach(MIMEText(TEXT))
 
     # Gmail Sign In
     gmail_sender = auth['user']
