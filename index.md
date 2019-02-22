@@ -14,9 +14,8 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 
 ### **LATEST ANNOUNCEMENTS**
 
-- Due to a light hacking incident our sumbission system was compromised. Hence I am slightly moidfying the system. Please read [Homework Submission Tutorial](/tutorials/homework-submission-tutorial/){:target="blank"}.
-- Even most of the students have already made their submissions, few of you couldn't send after I change the password to secure the account. Moreover, some students have sent the wrong output image. Hence I am extending the submission deadline of Homework 01 to 21.02.2019 23:59:59.
-- See Homework 1 below (again).
+- See Homework 2 ( due 28.02.2019 23:59:59) below.
+- Midterm will be on 22.03.2019 at the lecture time. 
 
 
 ### **CLASS PRESENTATIONS**
@@ -30,7 +29,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 
 ### **HOMEWORK**
 
-- [Homework 1](/homeworks/homework-01/){:target="blank"}
+- [Homework 2](/homeworks/homework-02/){:target="blank"}
 
 
 ### **ATTENDANCE and GRADES**
