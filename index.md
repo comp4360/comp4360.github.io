@@ -21,10 +21,15 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 ### **CLASS PRESENTATIONS**
 - [WEEK 1 : 08.02.2019](https://docs.google.com/presentation/d/15CgUzOMa9H-jxMAjTw6iCbmaI_RXIbR76VgI0VQywTA/edit?usp=sharing){:target="blank"}
 - [WEEK 2 : 15.02.2019](https://docs.google.com/presentation/d/1O2UdqBU7esl2hefXjT58tL-HsyoXR0W2NkTjnGjs7KI/edit?usp=sharing){:target="blank"}
+- [WEEK 3 : 22.02.2019](https://docs.google.com/presentation/d/1Z5A1C-5YJfBxvv9PU5XsVAbEJOQL2FSjMqXx4Mgrjw4/edit?usp=sharing){:target="blank"}
+
+
+
 
 
 ### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
 - [WEEK 2 : 15.02.2019](https://drive.google.com/file/d/1qb9JY9PVwFaVk32ryVhdJZlnNNRG5-Cn/view?usp=sharing){:target="blank"} (There are two bonus questions we did not actually solve on the board.)
+- [WEEK 3 : 22.02.2019](https://drive.google.com/file/d/1fcbMnKurMGWu5h0__9KzjubLTlIN66Q2/view?usp=sharing){:target="blank"} (There are two bonus questions we did not actually solve on the board.)
 
 
 ### **HOMEWORK**
