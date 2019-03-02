@@ -9,7 +9,7 @@ permalink: /homeworks/homework-02/
 
 ## **Homework 02**
 
- _(Due Date: 28.02.2019 23:59:59)_
+ _(Due Date: 07.03.2019 23:59:59)_
 
 (Read the below text completely!)
 
@@ -18,9 +18,15 @@ permalink: /homeworks/homework-02/
 - Before starting your implementation make sure that you already read [Basic Python Tutorial](/tutorials/basic-python-tutorial/){:target='_blank'}. 
 and [Homework Submission tutorial](/tutorials/homework-submission-tutorial/){:target='_blank'}. 
 
-- Also it is important that you downloaded the most recent versions of the scripts  [comp4360.py (v1.2)](/homeworks/comp4360.py){:target='_blank'}  and [submit.py](/homeworks/submit.py).
+- Also it is important that you downloaded the most recent versions of the scripts  [comp4360.py (v1.3)](/homeworks/comp4360.py){:target='_blank'}  and [submit.py](/homeworks/submit.py).
 
 - For this homework, you will send just your python script and you WONT send an output image. Hence you SHOULD leave the data['image_name'] field empty while performing your submission.
+
+- Do not cooperate while writing your codes
+- Read the homework text completely
+- Fill in [submit.py](/homeworks/submit.py) with correct parameter values
+- DO NOT modify any line in [comp4360.py](/homeworks/comp4360.py){:target='_blank'} 
+- Current version is 1.3 make sure that you are using the correct up-to-date version of [comp4360.py](/homeworks/comp4360.py){:target='_blank'}
 
 
 ## Problem
@@ -44,8 +50,6 @@ In the script you may need to use the following functions, refer to the document
 
 
 ## Important Notice
-
-
 
 - For this homework you SHOULD name your python script as your student number. i.e. If your student number is '123456789' your python file should be named as '123456789.py'. Your output image name should also match with your student id (see the plt.savefig() function below). You run your code from terminal as follows:
 
