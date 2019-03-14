@@ -41,7 +41,7 @@ See the sample input image - itf image - output image triplets below:
 |:---:|:---:|:---:|
 | Source Image | ITF Image | Output Image |
 
-| [![Source Image](/homeworks/xray.png)](/homeworks/xray.png)  | [![ITF Image](/homeworks/itf3.png)](/homeworks/itf3.png)  | [![Output Image](/homeworks/car.png)](/homeworks/xray.png)  |
+| [![Source Image](/homeworks/xray.jpg)](/homeworks/xray.jpg)  | [![ITF Image](/homeworks/itf3.png)](/homeworks/itf3.png)  | [![Output Image](/homeworks/car.png)](/homeworks/xray.png)  |
 |:---:|:---:|:---:|
 | Source Image | ITF Image | Output Image |
 
@@ -68,7 +68,7 @@ In the script you may need to use the following functions, refer to the document
 - For this homework you SHOULD name your python script as your student number. i.e. If your student number is '123456789' your python file should be named as '123456789.py'. Your output image name should also match with your student id (see the plt.savefig() function below). You run your code from terminal as follows:
 
 ```console
-$ python 123456789.py img1.npy
+$ python 123456789.py car.png itf2.png
 ```
 
 ```python
