@@ -37,17 +37,14 @@ See the sample input image - itf image - output image triplets below:
 
 ## EXAMPLE 1
 
-
-| [![Source Image](/homeworks/car.png)](/homeworks/car.png)  |  [![Source Image](/homeworks/car.png)](/homeworks/car.png)  | [![Source Image](/homeworks/car.png)](/homeworks/car.png)  |
+| [![Source Image](/homeworks/car.png)](/homeworks/car.png)  | [![ITF Image](/homeworks/itf2.png)](/homeworks/itf2.png)  | [![Output Image](/homeworks/car.png)](/homeworks/car.png)  |
 |:---:|:---:|:---:|
-| Source Image | http://audioblocks.com | http://graphicstock.com |
+| Source Image | ITF Image | Output Image |
 
+| [![Source Image](/homeworks/xray.png)](/homeworks/xray.png)  | [![ITF Image](/homeworks/itf3.png)](/homeworks/itf3.png)  | [![Output Image](/homeworks/car.png)](/homeworks/xray.png)  |
+|:---:|:---:|:---:|
+| Source Image | ITF Image | Output Image |
 
-<table><tr>
-<td> <img src="/homeworks/car.png"" alt="Source Image" style="height: 150px;"/> </td>
-<td> <img src="/homeworks/itf2.png"" alt="Itf Image" style="height: 150px;"/> </td>
-<td> <img src="/homeworks/car.png"" alt="Itf Image" style="height: 150px;"/> </td>
-</tr></table>
 
 <!--
 
