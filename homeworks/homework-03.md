@@ -37,21 +37,13 @@ See the sample input image - itf image - output image triplets below:
 
 ## EXAMPLE 1
 
-
 <p float="left">
-  <img src="/homeworks/123456789.png" width="100" />
-  <img src="/homeworks/123456789.png" width="100" />
-  <img src="/homeworks/123456789.png" width="100" />
+<img align="left" src="/homeworks/car.png" alt="Source Image" title="SOURCE" height="200" hspace="20"/>
+<img align="left" src="/homeworks/itf2.png" alt="Itf Image" title="ITF" height="200" hspace="20"/>
+<img align="left" src="/homeworks/car.png" alt="Output Image" title="OUTPUT" height="200" hspace="20"/>
 </p>
 
-
-<p float="left">
-<img align="left" src="/homeworks/car.png" alt="Source Image" title="SOURCE" width="200" hspace="20"/>
-<img align="left" src="/homeworks/itf2.png" alt="Itf Image" title="ITF" width="200" hspace="20"/>
-<img align="left" src="/homeworks/car.png" alt="Output Image" title="OUTPUT" width="200" hspace="20"/>
-</p>
-
-<br/><br/><br/><br/>
+<p float="left"><br/><br/><br/><br/></p>
 
 In the script you may need to use the following functions, refer to the document pages of these functions and figure out how you can use them in your code:
 
@@ -86,9 +78,3 @@ ax1.imshow(img)
 ax1.set_title('Number of channel(s) = ...)
 plt.savefig('123456789.png')
 ```
-
-When you run your script for [img2.npy](/homeworks/img2.npy), the output figure should look exactly the same as the following figure:
-
- <div class='fig figcenter'>
-  <img src='/homeworks/123456789.png'>
-</div>
