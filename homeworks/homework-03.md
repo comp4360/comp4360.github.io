@@ -31,29 +31,30 @@ and [Homework Submission tutorial](/tutorials/homework-submission-tutorial/){:ta
 
 ## Problem
 
-You have already seen intensity transformation functions in the lectures and now you know how they work. In this homework you're going to write a python script which is capable of reading user inputs from the command line. The script is going to accept two input image file names which are the input image file name and intensity transformation function (itf) image file name and will create an output image which is the transformed version of the input image. You'll reconstruct from the itf from the image you're going to read. For simplicity consider that the itf image is of size 255 by 255.
+You have already seen intensity transformation functions in the lectures and now you know how they work. In this homework you're going to write a python script which is capable of reading user inputs from the command line. The script is going to accept two input image file names which are the transformation function (itf) image  and the input image file name . You'll reconstruct the itf from the itf  image you're going to read and the output image will be the transformed version of the input image. For simplicity consider that the itf image is of size 255 by 255.
 
 See the sample input image - itf image - output image triplets below:
 
 ## EXAMPLE 1
 
-| [![Source Image](/homeworks/car.png)](/homeworks/car.png)  | [![ITF Image](/homeworks/itf2.png)](/homeworks/itf2.png)  | [![Output Image](/homeworks/car.png)](/homeworks/car.png)  |
-|:---:|:---:|:---:|
-| Source Image | ITF Image | Output Image |
-
-| [![Source Image](/homeworks/xray.jpg)](/homeworks/xray.jpg)  | [![ITF Image](/homeworks/itf3.png)](/homeworks/itf3.png)  | [![Output Image](/homeworks/car.png)](/homeworks/xray.png)  |
+| [![Source Image](/homeworks/car.png)](/homeworks/car.png)  | [![ITF Image](/homeworks/itf2.png)](/homeworks/itf2.png)  | [![Output Image](/homeworks/out-car-itf2.png)](/homeworks/out-car-itf2.png)  |
 |:---:|:---:|:---:|
 | Source Image | ITF Image | Output Image |
 
 
-<!--
+## EXAMPLE 2
 
-<p float="left">
-<img align="left" src="/homeworks/car.png" alt="Source Image" title="SOURCE" height="150" hspace="20"/>
-<img align="left" src="/homeworks/itf2.png" alt="Itf Image" title="ITF" height="150" hspace="20"/>
-<img align="left" src="/homeworks/car.png" alt="Output Image" title="OUTPUT" height="150" hspace="20"/>
-</p>
--->
+| [![Source Image](/homeworks/xray.jpg)](/homeworks/xray.jpg)  | [![ITF Image](/homeworks/itf3.png)](/homeworks/itf3.png)  | [![Output Image](/homeworks/out-xray-itf3.png)](/homeworks/out-xray-itf3.png)  |
+|:---:|:---:|:---:|
+| Source Image | ITF Image | Output Image |
+
+
+## EXAMPLE 3
+
+| [![Source Image](/homeworks/xray.jpg)](/homeworks/xray.jpg)  | [![ITF Image](/homeworks/itf4.png)](/homeworks/itf4.png)  | [![Output Image](/homeworks/out-xray-itf4.png)](/homeworks/out-xray-itf4.png)  |
+|:---:|:---:|:---:|
+| Source Image | ITF Image | Output Image |
+
 
 
 In the script you may need to use the following functions, refer to the document pages of these functions and figure out how you can use them in your code:
@@ -68,7 +69,7 @@ In the script you may need to use the following functions, refer to the document
 - For this homework you SHOULD name your python script as your student number. i.e. If your student number is '123456789' your python file should be named as '123456789.py'. Your output image name should also match with your student id (see the plt.savefig() function below). You run your code from terminal as follows:
 
 ```console
-$ python 123456789.py car.png itf2.png
+$ python 123456789.py itf2.png car.png
 ```
 
 ```python
