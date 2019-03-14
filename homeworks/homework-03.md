@@ -37,11 +37,21 @@ See the sample input image - itf image - output image triplets below:
 
 ## EXAMPLE 1
 
+
+<table><tr>
+<td> <img src="/homeworks/car.png"" alt="Source Image" style="height: 150px;"/> </td>
+<td> <img src="/homeworks/itf2.png"" alt="Itf Image" style="height: 150px;"/> </td>
+<td> <img src="/homeworks/car.png"" alt="Itf Image" style="height: 150px;"/> </td>
+</tr></table>
+
+<!--
+
 <p float="left">
 <img align="left" src="/homeworks/car.png" alt="Source Image" title="SOURCE" height="150" hspace="20"/>
 <img align="left" src="/homeworks/itf2.png" alt="Itf Image" title="ITF" height="150" hspace="20"/>
 <img align="left" src="/homeworks/car.png" alt="Output Image" title="OUTPUT" height="150" hspace="20"/>
 </p>
+-->
 
 
 In the script you may need to use the following functions, refer to the document pages of these functions and figure out how you can use them in your code:
