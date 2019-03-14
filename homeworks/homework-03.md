@@ -7,9 +7,9 @@ title: Homework 03
 permalink: /homeworks/homework-03/
 ---
 
-### **Homework 02**
+### **Homework 03**
 
- _(Due Date: 21.03.2019 23:59:59)_
+ _(Due Date: 28.03.2019 23:59:59)_
 
 (Read the below text completely!)
 
@@ -55,15 +55,6 @@ See the sample input image - itf image - output image triplets below:
 |:---:|:---:|:---:|
 | Source Image | ITF Image | Output Image |
 
-
-
-In the script you may need to use the following functions, refer to the document pages of these functions and figure out how you can use them in your code:
-
-- np.load(...)
-- reshape() function from numpy library
-- Image.fromarray(...)
-
-
 ## Important Notice
 
 - For this homework you SHOULD name your python script as your student number. i.e. If your student number is '123456789' your python file should be named as '123456789.py'. Your output image name should also match with your student id (see the plt.savefig() function below). You run your code from terminal as follows:
@@ -77,16 +68,7 @@ $ python 123456789.py itf2.png car.png
 # coding: utf-8
 
 # USE ONLY THE FOLLOWING LIBRARIES DO NOT ADD ANYTHING TO THIS LINE
-from comp4360 import Image, np, sys, os, plt
-
+from comp4360 import Image, np, sys
 
 # INSERT YOUR CODE HERE
-
-
-# YOU CAN USE THW FOLLOWING SEGMENT TO SAVE THE PLOT AS IMAGE
-fig = plt.figure(figsize=(5, 5))
-ax1 = fig.add_subplot(111)
-ax1.imshow(img)
-ax1.set_title('Number of channel(s) = ...)
-plt.savefig('123456789.png')
 ```
