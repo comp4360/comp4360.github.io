@@ -46,12 +46,12 @@ See the sample input image - itf image - output image triplets below:
 
 
 <p float="left">
-<img align="left" src="/homeworks/123456789.png" alt="Made with Angular" title="Angular" width="200" hspace="20"/>
-<img align="left" src="/homeworks/123456789.png" alt="Made with Angular" title="Angular" width="200" hspace="20"/>
-<img align="left" src="/homeworks/123456789.png" alt="Made with Angular" title="Angular" width="200" hspace="20"/>
+<img align="left" src="/homeworks/car.png" alt="Source Image" title="SOURCE" width="200" hspace="20"/>
+<img align="left" src="/homeworks/itf2.png" alt="Itf Image" title="ITF" width="200" hspace="20"/>
+<img align="left" src="/homeworks/car.png" alt="Output Image" title="OUTPUT" width="200" hspace="20"/>
 </p>
 
-
+<br/><br/><br/><br/>
 
 In the script you may need to use the following functions, refer to the document pages of these functions and figure out how you can use them in your code:
 
