@@ -7,13 +7,13 @@ title: Homework 03
 permalink: /homeworks/homework-03/
 ---
 
-## **Homework 02**
+### **Homework 02**
 
  _(Due Date: 21.03.2019 23:59:59)_
 
 (Read the below text completely!)
 
-### Prework
+## Prework
 
 - Before starting your implementation make sure that you already read [Basic Python Tutorial](/tutorials/basic-python-tutorial/){:target='_blank'}. 
 and [Homework Submission tutorial](/tutorials/homework-submission-tutorial/){:target='_blank'}. 
@@ -37,11 +37,20 @@ See the sample input image - itf image - output image triplets below:
 
 ## EXAMPLE 1
 
+
 <p float="left">
   <img src="/homeworks/123456789.png" width="100" />
   <img src="/homeworks/123456789.png" width="100" />
   <img src="/homeworks/123456789.png" width="100" />
 </p>
+
+
+<p float="left">
+<img align="left" src="/homeworks/123456789.png" alt="Made with Angular" title="Angular" width="200" hspace="20"/>
+<img align="left" src="/homeworks/123456789.png" alt="Made with Angular" title="Angular" width="200" hspace="20"/>
+<img align="left" src="/homeworks/123456789.png" alt="Made with Angular" title="Angular" width="200" hspace="20"/>
+</p>
+
 
 
 In the script you may need to use the following functions, refer to the document pages of these functions and figure out how you can use them in your code:
