@@ -57,7 +57,7 @@ See the sample input image - itf image - output image triplets below:
 
 ## Important Notice
 
-- For this homework you SHOULD name your python script as your student number. i.e. If your student number is '123456789' your python file should be named as '123456789.py'. Your output image name should also match with your student id (see the plt.savefig() function below). You run your code from terminal as follows:
+- For this homework you SHOULD name your python script as your student number. i.e. If your student number is '123456789' your python file should be named as '123456789.py'. Your output image name should also match with your student id. You run your code from terminal as follows:
 
 ```console
 $ python 123456789.py itf2.png car.png
