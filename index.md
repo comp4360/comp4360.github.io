@@ -28,10 +28,10 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 5 : 08.03.2019](https://drive.google.com/file/d/1gS3oznj5NFRwnzKLKPwtjTzLL7g_lJuN/view?usp=sharing){:target="blank"} 
 
 
-<!-- 
+
 ### **HOMEWORK**
-- [Homework 2](/homeworks/homework-02/){:target="blank"}
--->
+- [Homework 3](/homeworks/homework-03/){:target="blank"}
+
 
 ### **ATTENDANCE and GRADES**
 - [ATTENDANCE](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"}
