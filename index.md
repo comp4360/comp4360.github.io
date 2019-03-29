@@ -30,9 +30,10 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 5 : 08.03.2019](https://drive.google.com/file/d/1gS3oznj5NFRwnzKLKPwtjTzLL7g_lJuN/view?usp=sharing){:target="blank"} 
 - [WEEK 6 : 15.03.2019](https://drive.google.com/file/d/1rpN7VlbwSruq7umRSWToyFugCW4gH8qd/view?usp=sharing){:target="blank"} 
 
-
+<!--
 ### **HOMEWORK**
 - [Homework 3](/homeworks/homework-03/){:target="blank"}
+-->
 
 
 ### **ATTENDANCE and GRADES**
