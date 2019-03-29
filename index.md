@@ -29,7 +29,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 4 : 01.03.2019](https://drive.google.com/file/d/1dZuS9DygKwkiDavm2ChuUs3Q4ro3dvNg/view?usp=sharing){:target="blank"} 
 - [WEEK 5 : 08.03.2019](https://drive.google.com/file/d/1gS3oznj5NFRwnzKLKPwtjTzLL7g_lJuN/view?usp=sharing){:target="blank"} 
 - [WEEK 6 : 15.03.2019](https://drive.google.com/file/d/1rpN7VlbwSruq7umRSWToyFugCW4gH8qd/view?usp=sharing){:target="blank"} 
-- [WEEK 6 : 29.03.2019](https://drive.google.com/file/d/1Fmg1xe2tlpTolTXC5DWcV2YvhC4MglcR/view?usp=sharing){:target="blank"} 
+- [WEEK 7 : 29.03.2019](https://drive.google.com/file/d/1Fmg1xe2tlpTolTXC5DWcV2YvhC4MglcR/view?usp=sharing){:target="blank"} 
 
 
 <!--
