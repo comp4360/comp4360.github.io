@@ -11,8 +11,8 @@ This is the homepage for our course. Visit this page frequently to see the annou
 _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click will open the links in new tabs.)_
 
 ### **LATEST ANNOUNCEMENTS**
+- See Homework 4 below.
 - Check  [Attendance&Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"} for any mistakes.
-- Midterm will be on 22.03.2019 at the lecture time. 
 
 ### **CLASS PRESENTATIONS**
 - [WEEK 1 : 08.02.2019](https://docs.google.com/presentation/d/15CgUzOMa9H-jxMAjTw6iCbmaI_RXIbR76VgI0VQywTA/edit?usp=sharing){:target="blank"}
@@ -22,7 +22,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 5 : 08.03.2019](https://docs.google.com/presentation/d/17lvy9iskqvM3bwX0xjWmH7Izf5cKoODoSJxU6TbD4EI/edit?usp=sharing){:target="blank"}
 - [WEEK 6 : 15.03.2019](https://docs.google.com/presentation/d/1M7cK_4GWfhX_0vF-xmszKCt7pt-CWypCDSpoCzFZdkQ/edit?usp=sharing){:target="blank"}
 - [WEEK 7 : 29.03.2019](https://docs.google.com/presentation/d/1P0os3FKkciMgORB1HgM7tiny86lNCmjFOHWoafAmrTY/edit?usp=sharing){:target="blank"}
-- [WEEK 8 : 05.04.2019](){:target="blank"}
+- [WEEK 8 : 05.04.2019](https://docs.google.com/presentation/d/1KBgte4ZcsGc36tN689axh8NHIqbqIx9vgN1ifz7txFA/edit?usp=sharing){:target="blank"}
 
 
 ### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
@@ -32,7 +32,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 5 : 08.03.2019](https://drive.google.com/file/d/1gS3oznj5NFRwnzKLKPwtjTzLL7g_lJuN/view?usp=sharing){:target="blank"} 
 - [WEEK 6 : 15.03.2019](https://drive.google.com/file/d/1rpN7VlbwSruq7umRSWToyFugCW4gH8qd/view?usp=sharing){:target="blank"} 
 - [WEEK 7 : 29.03.2019](https://drive.google.com/file/d/1Fmg1xe2tlpTolTXC5DWcV2YvhC4MglcR/view?usp=sharing){:target="blank"} 
-- [WEEK 7 : 05.04.2019](){:target="blank"} 
+- [WEEK 7 : 05.04.2019](https://drive.google.com/file/d/18MYib07xkRKeMYJrixgoE-tJXhTHCfrl/view?usp=sharing){:target="blank"} 
 
 
 

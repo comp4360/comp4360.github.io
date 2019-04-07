@@ -37,14 +37,14 @@ See the sample input image -  output image pairs below:
 
 ## EXAMPLE 1
 
-| [![Source Image](/homeworks/local-kc.png)](/homeworks/local-kc.png)  | [![Output Image](/homeworks/out-car-itf2.png)](/homeworks/local-hist-kc.png)  |
+| [![Source Image](/homeworks/local-kc.png)](/homeworks/local-kc.png)  | [![Output Image](/homeworks/local-hist-kc.png)](/homeworks/local-hist-kc.png)  |
 |:---:|:---:|
 | Source Image | Output Image |
 
 
 ## EXAMPLE 1
 
-| [![Source Image](/homeworks/local-yu.png)](/homeworks/local-yu.png)  | [![Output Image](/homeworks/out-car-itf2.png)](/homeworks/local-hist-yu.png)  |
+| [![Source Image](/homeworks/local-yu.png)](/homeworks/local-yu.png)  | [![Output Image](/homeworks/local-hist-yu.png)](/homeworks/local-hist-yu.png)  |
 |:---:|:---:|
 | Source Image | Output Image |
 
