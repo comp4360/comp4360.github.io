@@ -42,7 +42,7 @@ See the sample input image -  output image pairs below:
 | Source Image | Output Image |
 
 
-## EXAMPLE 1
+## EXAMPLE 2
 
 | [![Source Image](/homeworks/local-yu.png)](/homeworks/local-yu.png)  | [![Output Image](/homeworks/local-hist-yu.png)](/homeworks/local-hist-yu.png)  |
 |:---:|:---:|
