@@ -27,14 +27,14 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 
 
 ### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
-- [WEEK 2 : 15.02.2019](https://drive.google.com/file/d/1qb9JY9PVwFaVk32ryVhdJZlnNNRG5-Cn/view?usp=sharing){:target="blank"} (There are two bonus questions we did not actually solve on the board.)
+- [WEEK 2 : 15.02.2019](https://drive.google.com/file/d/1qb9JY9PVwFaVk32ryVhdJZlnNNRG5-Cn/view?usp=sharing){:target="blank"} 
 - [WEEK 3 : 22.02.2019](https://drive.google.com/file/d/1fcbMnKurMGWu5h0__9KzjubLTlIN66Q2/view?usp=sharing){:target="blank"} 
 - [WEEK 4 : 01.03.2019](https://drive.google.com/file/d/1dZuS9DygKwkiDavm2ChuUs3Q4ro3dvNg/view?usp=sharing){:target="blank"} 
 - [WEEK 5 : 08.03.2019](https://drive.google.com/file/d/1gS3oznj5NFRwnzKLKPwtjTzLL7g_lJuN/view?usp=sharing){:target="blank"} 
 - [WEEK 6 : 15.03.2019](https://drive.google.com/file/d/1rpN7VlbwSruq7umRSWToyFugCW4gH8qd/view?usp=sharing){:target="blank"} 
 - [WEEK 7 : 29.03.2019](https://drive.google.com/file/d/1Fmg1xe2tlpTolTXC5DWcV2YvhC4MglcR/view?usp=sharing){:target="blank"} 
 - [WEEK 8 : 05.04.2019](https://drive.google.com/file/d/18MYib07xkRKeMYJrixgoE-tJXhTHCfrl/view?usp=sharing){:target="blank"} 
-- [WEEK 9 : 12.04.2019](hhttps://drive.google.com/file/d/1oW3qGxaJjV8C5FhQacIgnJCCTZRnskYv/view?usp=sharing){:target="blank"} 
+- [WEEK 9 : 12.04.2019](https://drive.google.com/file/d/1oW3qGxaJjV8C5FhQacIgnJCCTZRnskYv/view?usp=sharing){:target="blank"} 
 
 
 ### **HOMEWORK**
