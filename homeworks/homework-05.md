@@ -3,13 +3,13 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
-title: Homework 04
-permalink: /homeworks/homework-04/
+title: Homework 05
+permalink: /homeworks/homework-05/
 ---
 
-### **Homework 04**
+### **Homework 05**
 
- _(Due Date: 18.04.2019 23:59:59)_
+ _(Due Date: 09.05.2019 23:59:59)_
 
 (Read the below text completely!)
 
@@ -31,7 +31,13 @@ and [Homework Submission tutorial](/tutorials/homework-submission-tutorial/){:ta
 
 ## Problem
 
-In this homework you're goint to write a python script which is capable of  performing local histogram equalization for a given input image. The operation can be performed in 3 by 3 windows. 
+Since you're familiar with fourier transform, now you can perform frequency domain filtering. In this homework you're going to write a python script which is capable of  performing filtering in fourier domain. The program should show the frequency domain image of an input image. The user should be able to select multiple areas in the frequency domain image and filter them out. 
+
+By this way it can be possible to remove a noise ,e.g. a periodic noise, effectively. Watch the following video to understand how your script should work exactly:
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wZMMWjlZZ5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 See the sample input image -  output image pairs below:
 
