@@ -36,8 +36,13 @@ Since you're familiar with fourier transform, now you can perform frequency doma
 By this way it can be possible to remove a noise ,e.g. a periodic noise, effectively. Watch the following video to understand how your script should work exactly:
 
 
+{::nomarkdown}
 
+<!-- HTML CODE-->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wZMMWjlZZ5Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{:/}
+
 
 See the sample input image -  output image pairs below:
 
@@ -46,14 +51,6 @@ See the sample input image -  output image pairs below:
 | [![Source Image](/homeworks/local-kc.png)](/homeworks/local-kc.png)  | [![Output Image](/homeworks/local-hist-kc.png)](/homeworks/local-hist-kc.png)  |
 |:---:|:---:|
 | Source Image | Output Image |
-
-
-## EXAMPLE 2
-
-| [![Source Image](/homeworks/local-yu.png)](/homeworks/local-yu.png)  | [![Output Image](/homeworks/local-hist-yu.png)](/homeworks/local-hist-yu.png)  |
-|:---:|:---:|
-| Source Image | Output Image |
-
 
 
 ## Important Notice
