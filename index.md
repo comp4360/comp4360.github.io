@@ -11,7 +11,8 @@ This is the homepage for our course. Visit this page frequently to see the annou
 _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click will open the links in new tabs.)_
 
 ### **LATEST ANNOUNCEMENTS**
-- See Homework 4 below.
+#- See Homework 5 below.
+#- Make sure that you downloaded the updated file [comp4360.py (v1.4)](/homeworks/comp4360.py)
 - Check  [Attendance&Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"} for any mistakes.
 
 ### **CLASS PRESENTATIONS**

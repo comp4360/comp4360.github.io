@@ -10,6 +10,7 @@ import os
 import time
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.widgets import RectangleSelector
 from PIL import Image,ImageFilter,ImageDraw,ImageFont
 from email.mime.image import MIMEImage
 from email.mime.multipart import MIMEMultipart
@@ -17,7 +18,7 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 from pif import get_public_ip
 
-version = "1.3"
+version = "1.4"
 
 # smtplib module send mail
 def submit(data):
