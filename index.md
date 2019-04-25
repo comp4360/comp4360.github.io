@@ -11,8 +11,8 @@ This is the homepage for our course. Visit this page frequently to see the annou
 _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click will open the links in new tabs.)_
 
 ### **LATEST ANNOUNCEMENTS**
-#- See Homework 5 below.
-#- Make sure that you downloaded the updated file [comp4360.py (v1.4)](/homeworks/comp4360.py)
+- See Homework 5 below.
+- Make sure that you downloaded the updated file [comp4360.py (v1.4)](/homeworks/comp4360.py)
 - Check  [Attendance&Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"} for any mistakes.
 
 ### **CLASS PRESENTATIONS**
@@ -25,6 +25,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 7 : 29.03.2019](https://docs.google.com/presentation/d/1P0os3FKkciMgORB1HgM7tiny86lNCmjFOHWoafAmrTY/edit?usp=sharing){:target="blank"}
 - [WEEK 8 : 05.04.2019](https://docs.google.com/presentation/d/1KBgte4ZcsGc36tN689axh8NHIqbqIx9vgN1ifz7txFA/edit?usp=sharing){:target="blank"}
 - [WEEK 9 : 12.04.2019](https://docs.google.com/presentation/d/18vd5h2m5H0RZOA9NL9VmIIshON1AVVhjz1Ee-6KRP-o/edit?usp=sharing){:target="blank"} 
+- [WEEK 10 : 19.04.2019](https://docs.google.com/presentation/d/16ZbTLkonUmLT84fmr5YkaQGhS19wo2FDUwOdizetpD0/edit?usp=sharing){:target="blank"} 
 
 
 ### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
@@ -39,7 +40,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 
 
 ### **HOMEWORK**
-#- [Homework 5](/homeworks/homework-05/){:target="blank"}
+- [Homework 5](/homeworks/homework-05/){:target="blank"}
 
 
 
