@@ -22,7 +22,7 @@ permalink: /homeworks/homework-05/
 - Read the homework text completely
 - Fill in [submit.py](/homeworks/submit.py) with correct parameter values
 - DO NOT modify any line in [comp4360.py](/homeworks/comp4360.py){:target='_blank'} 
-- Current version is 1.3 make sure that you are using the correct up-to-date version of [comp4360.py](/homeworks/comp4360.py){:target='_blank'}
+- Current version is 1.4 make sure that you are using the correct up-to-date version of [comp4360.py](/homeworks/comp4360.py){:target='_blank'}
 
 
 ## Problem
