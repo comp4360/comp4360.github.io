@@ -14,6 +14,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - See Homework 5 below.
 - Make sure that you downloaded the updated file [comp4360.py (v1.4)](/homeworks/comp4360.py)
 - Check  [Attendance&Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"} for any mistakes.
+- A recent and interesting article about Fourier Transform [link](https://evrimagaci.org/fourier-donusumu-internette-muzik-ve-fotograf-paylasimini-mumkun-kilan-matematik-7728).
 
 ### **CLASS PRESENTATIONS**
 - [WEEK 1 : 08.02.2019](https://docs.google.com/presentation/d/15CgUzOMa9H-jxMAjTw6iCbmaI_RXIbR76VgI0VQywTA/edit?usp=sharing){:target="blank"}
