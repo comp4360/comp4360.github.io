@@ -11,7 +11,7 @@ This is the homepage for our course. Visit this page frequently to see the annou
 _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click will open the links in new tabs.)_
 
 ### **LATEST ANNOUNCEMENTS**
-- You can make your homework objections to TA Atakan Aylanç by sending him an email (his e mail address is his atakanaylanc <at> gmail.com)
+- You can make your homework objections to TA Atakan Aylanç by sending him an email (his e mail address is his atakanaylanc AT gmail.com)
 - Check  [Attendance&Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"} for any mistakes.
 
 
@@ -40,8 +40,10 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 9 : 12.04.2019](https://drive.google.com/file/d/1oW3qGxaJjV8C5FhQacIgnJCCTZRnskYv/view?usp=sharing){:target="blank"} 
 - [WEEK 11 : 26.04.2019](https://drive.google.com/file/d/1AwYLPmhjwTMPzHadfTcPsRsGc7BtO4J8/view?usp=sharing){:target="blank"} 
 
-### **HOMEWORK**
+<!-- ### **HOMEWORK**
 - [Homework 5](/homeworks/homework-05/){:target="blank"}
+-->
+
 
 ### **ATTENDANCE and GRADES**
 - [ATTENDANCE and GRADES](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&multiple=true){:target="blank"}
