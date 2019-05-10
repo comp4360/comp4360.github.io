@@ -11,10 +11,8 @@ This is the homepage for our course. Visit this page frequently to see the annou
 _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click will open the links in new tabs.)_
 
 ### **LATEST ANNOUNCEMENTS**
+- You can make your homework objections to TA Atakan Aylanç by sending him an email (his e mail address is his atakanaylanc <at> gmail.com)
 - Check  [Attendance&Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"} for any mistakes.
-- A recent and interesting article about Fourier Transform [link](https://evrimagaci.org/fourier-donusumu-internette-muzik-ve-fotograf-paylasimini-mumkun-kilan-matematik-7728).
-- See Homework 5 below.
-- Make sure that you downloaded the updated file [comp4360.py (v1.4)](/homeworks/comp4360.py)
 
 
 ### **CLASS PRESENTATIONS**
@@ -29,7 +27,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 9 : 12.04.2019](https://docs.google.com/presentation/d/18vd5h2m5H0RZOA9NL9VmIIshON1AVVhjz1Ee-6KRP-o/edit?usp=sharing){:target="blank"} 
 - [WEEK 10 : 19.04.2019](https://docs.google.com/presentation/d/16ZbTLkonUmLT84fmr5YkaQGhS19wo2FDUwOdizetpD0/edit?usp=sharing){:target="blank"} 
 - [WEEK 11 : 26.04.2019](https://docs.google.com/presentation/d/1kTV2v0KdSbiLW8X9Il9in1o_7_cNpYILlhJWtoLv9P0/edit?usp=sharing){:target="blank"} 
-
+- [WEEK 12 : 10.05.2019](https://docs.google.com/presentation/d/1R_l438lDDtcl5yop73iivP05eWNepm7R2r3P1qRwqr8/edit?usp=sharing){:target="blank"} 
 
 ### **CLASSWORKS (QUESTIONS SOLVED ON THE BOARD)**
 - [WEEK 2 : 15.02.2019](https://drive.google.com/file/d/1qb9JY9PVwFaVk32ryVhdJZlnNNRG5-Cn/view?usp=sharing){:target="blank"} 
@@ -42,10 +40,8 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 - [WEEK 9 : 12.04.2019](https://drive.google.com/file/d/1oW3qGxaJjV8C5FhQacIgnJCCTZRnskYv/view?usp=sharing){:target="blank"} 
 - [WEEK 11 : 26.04.2019](https://drive.google.com/file/d/1AwYLPmhjwTMPzHadfTcPsRsGc7BtO4J8/view?usp=sharing){:target="blank"} 
 
-
 ### **HOMEWORK**
 - [Homework 5](/homeworks/homework-05/){:target="blank"}
-
 
 ### **ATTENDANCE and GRADES**
 - [ATTENDANCE and GRADES](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&multiple=true){:target="blank"}
