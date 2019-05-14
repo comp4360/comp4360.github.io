@@ -12,7 +12,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 
 ### **LATEST ANNOUNCEMENTS**
 - You can make your homework objections to TA Atakan Aylanç by sending him an email (his e mail address is his namesurname@gmail.com i.e. atakanaylanc AT gmail.com)
-- Check  [Attendance&Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml?gid=1713380079&single=true){:target="blank"} for any mistakes.
+- Check  [Attendance&Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml#){:target="blank"} for any mistakes.
 
 
 ### **CLASS PRESENTATIONS**
