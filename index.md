@@ -10,6 +10,8 @@ exclude: true
 This is the homepage for our course. Visit this page frequently to see the announcements and other things related with the course.
 _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click will open the links in new tabs.)_
 
+
+<!--
 ### **LATEST ANNOUNCEMENTS**
 - [You may find this job posting interesting](https://www.linkedin.com/feed/update/urn:li:activity:6533992787338117120/)
 - You can make your homework objections to TA Atakan Aylanç by sending him an email (his e mail address is his namesurname@gmail.com i.e. atakanaylanc AT gmail.com)
