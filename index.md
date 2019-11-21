@@ -13,6 +13,7 @@ _(Notice: Github.io does not support HTML target tag. If you want ctrl+Click wil
 
 <!--
 ### **LATEST ANNOUNCEMENTS**
+- Our final exam will be on 31.05.2019 at 09:30 in T212. The duration of the exam will be 3 hours. [See the updated finals program](https://ce.yasar.edu.tr/wp-content/uploads/2019/05/2018-2019_SPRING_FINAL_EXAM_updated.xlsx)
 - [You may find this job posting interesting](https://www.linkedin.com/feed/update/urn:li:activity:6533992787338117120/)
 - You can make your homework objections to TA Atakan Aylanç by sending him an email (his e mail address is his namesurname@gmail.com i.e. atakanaylanc AT gmail.com)
 - Check  [Attendance&Grades](https://docs.google.com/spreadsheets/d/e/2PACX-1vQi_SM1nSkfqj26a5iR9_oE8eUeCJTJRT6oMyfgSqM1wKN_MhCEI9A4bnHf4z16rqhzAuu0ReQ8_tE8/pubhtml#){:target="blank"} for any mistakes.
